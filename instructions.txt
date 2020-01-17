@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+1. Include the following code in your HTML head.
+-------------------------------------------------------------------------------
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="./css/mobilemenu.css"/>
+
+-------------------------------------------------------------------------------
+2. Include the following code just before the closing body tag.
+-------------------------------------------------------------------------------
+	<script src="js/menuToggle.js"></script>
+
+
+-------------------------------------------------------------------------------
+3. Add a toggle button inside your nav tag HTML directly above your primary navigation ul with an id of hamburgerNav.
+-------------------------------------------------------------------------------
+    <button id="hamburgerBtn"></button>
+
+
+-------------------------------------------------------------------------------
+4. Add an id to your unordered list of primaryNav also inside the nav tag.
+-------------------------------------------------------------------------------
+    <ul id="primaryNav">
+
+-------------------------------------------------------------------------------
+5. If you have sub menu items, giv each parent list item a class of parent.
+-------------------------------------------------------------------------------
+<li class="parent"><a href="#">LINK</a>
+    <ul>
+        <li><a href="#">Sub Link</a></li>
+        <li><a href="#">Sub Link</a></li>
+    </ul>
+</li>

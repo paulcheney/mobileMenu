@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Mobile Dropdown for Small Screens</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/mobilemenu.css"/>
+
+
+	</head>
+
+	<body>
+        <header>
+        <h1>Mobile Dropdown for Small Screens</h1>
+        </header>
+
+
+        <nav>
+        <button id="hamburgerBtn"></button>
+		<ul id="primaryNav">
+			<li><a href="#">DEALS</a></li>
+			<li class="parent"><a href="#">RESORTS</a>
+				<ul>
+					<li><a href="#">Beach</a></li>
+					<li><a href="#">Ski</a></li>
+				</ul>
+			</li>
+			<li class="parent active"><a href="#">CRUISES</a>
+            <ul>
+					<li><a href="#">Winter</a></li>
+					<li><a href="#">Spring</a></li>
+					<li><a href="#">Summer</a></li>
+                    <li><a href="#">Fall</a></li>
+				</ul></li>
+			<li><a href="#">CONTACT US</a></li>
+		</ul>
+        </nav>
+
+
+		<main>
+
+		  <p>This navigation is based on "Mobile Dropdown Conversion" by <a href="https://www.astuteo.com/mobilemenu" target="_blank">Astuteo</a> and modified by Paul Cheney.</p>
+
+		  <p>I have made the following changes to his code base on <a href="https://github.com/astuteo/mobilemenu" target="_blank">Github</a>.</p>
+              <ul>
+                <li>Changed the graphics used for the navigation </li>
+                <li>Removed the dependency on the jQuery library</li>
+                <li>Updated for natural box layout model</li>
+                <li>Pixel units replaced with rem units</li>
+                <li>Changed the parent down arrow to a hex code "\25BC"</li>
+                <li>Limited the dropdown width</li>
+                <li>Adapted for a flat design look</li>
+
+            </ul>
+
+
+
+
+        </main>
+
+        <footer>
+            Built in 2018 by <a href="http://spartandesignuniversity.com/" target="_blank">Paul Cheney</a>
+        </footer>
+
+
+    <script src="js/menuToggle.js"></script>    
+	</body>
+</html> 
